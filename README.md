@@ -39,8 +39,6 @@ Feel free to contact me. I accept remote work.
 - ImGui tools development for various systems.
 
 ## Personal Project Builds
-[Project Nima](https://drive.google.com/file/d/1aHa33I2-znXrFd1QMnyLHrO3xCOqvIcn/view?usp=drive_link): A puzzle game featuring a controllable cube to move around in the world. The goal is to reach the end-level spot.
-
-[Project Fish](https://drive.google.com/file/d/17hUXWRPUCUvkPjyif2EEIAQLEkhOZqwK/view?usp=drive_link): A test project to fiddles with Animation State Machines and combos. 
-
-[Escape From Wizard](https://github.com/hchia93/escape-from-wizard): Developed during University Course `Game Algorithm` featuring A* Algorithm. The goal is collect all magic potion and run to the exit in the shortest time possible. 
+- [Project Nima](https://drive.google.com/file/d/1aHa33I2-znXrFd1QMnyLHrO3xCOqvIcn/view?usp=drive_link): A puzzle game featuring a controllable cube to move around in the world. The goal is to reach the end-level spot.
+- [Project Fish](https://drive.google.com/file/d/17hUXWRPUCUvkPjyif2EEIAQLEkhOZqwK/view?usp=drive_link): A test project to fiddles with Animation State Machines and combos. 
+- [Escape From Wizard](https://github.com/hchia93/escape-from-wizard): Developed during University Course `Game Algorithm` featuring A* Algorithm. The goal is collect all magic potion and run to the exit in the shortest time possible. 
