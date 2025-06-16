@@ -25,7 +25,7 @@ Feel free to contact me. I accept remote work.
 
 ### Sniper Ghost Warrior(Contract):
 - Engine: CryEngine 3.3
-- Integrate outdated CryEngine with Curl to enable multiplayer capability.
+- Integrate outdated CryEngine with `curl` to enable multiplayer capability.
 - Worked on UI element of the game and debugging on weapon layout menu.
 
 ### Skull & Bones: 
