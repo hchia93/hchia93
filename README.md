@@ -1,4 +1,7 @@
-![hchia93's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=hchia93&theme=tokyonight&show_icons=true&hide_border=false&layout=compact)
+<div>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?show_icons=true&icon_color=AAADFF&bg_color=282a36&title_color=AAEDFF&text_color=fff&username=hchia93" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?layout=compact&bg_color=282a36&title_color=AAEDFF&text_color=fff&username=hchia93" />
+</div>
 
 <div style="display: inline_block"><br>
   <img align="center" alt="Cplusplus" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="40" height="40"/>
