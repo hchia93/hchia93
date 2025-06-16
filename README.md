@@ -9,7 +9,8 @@
 
 Hi, I am Hyrex, a former gameplay programmer with 8 years in the game industry. 
 
-I started my journey as a Generalist Gameplay Programmer at Streamline Studios Malaysia, and onboard to Ubisoft Singapore as an Intermidiate Gameplay Programer at Progression & Economy Team. Soon, I will be working as a Localization Game Tester at Transperfect. 
+I started my journey as a Generalist Gameplay Programmer at Streamline Studios Malaysia, and onboard as an intermidiate Gameplay Programmer in Progression & Economy Team at Ubisoft Singapore. 
+Soon, I will be working as a Localization Game Tester at Transperfect. 
 
 Feel free to contact me. I accept remote work.
 
