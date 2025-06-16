@@ -1,3 +1,5 @@
+![hchia93's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=hchia93&theme=tokyonight&show_icons=true&hide_border=false&layout=compact)
+
 <div style="display: inline_block"><br>
   <img align="center" alt="Cplusplus" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="40" height="40"/>
   <img align="center" alt="Python" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="40" height="40"/>
