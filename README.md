@@ -25,7 +25,7 @@ Feel free to connect with me for remote work opportunities.
     * **Developed and maintained in-game debug menus** for efficient console-based issue diagnosis and workflow improvements.
       
 ### Sniper Ghost Warrior(Contract):
-- * **Contributions:**
+* **Contributions:**
     * **Integrated outdated CryEngine systems with `curl`** to enable and stabilize multiplayer functionality.
     * **Implemented and debugged UI elements** for the weapon layout menu, improving user experience.
 
