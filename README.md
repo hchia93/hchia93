@@ -14,7 +14,7 @@
 
 ## About Me
 
-Hi, I'm Hyrex, a seasoned **Gameplay Programmer** with over **8 years of experience** in the game industry. My journey has involved significant contributions to multiple AAA projects, leveraging expertise across various **C++ game engines**, including **Unreal Engine, Luminous Engine, CryEngine, and Anvil**. I have a strong passion for developing robust and efficient gameplay systems.
+Hi, I'm Hyrex, a seasoned **Gameplay Programmer** with over **7 years of experience** in the game industry. My journey has involved significant contributions to multiple AAA projects, leveraging expertise across various **C++ game engines**, including **Unreal Engine, Luminous Engine, CryEngine, and Anvil**. I have a strong passion for developing robust and efficient gameplay systems.
 
 Feel free to connect with me for remote work opportunities.
 
