@@ -1,6 +1,22 @@
 # Installation Guide: `vcpkg` 
 
-This guide outlines the steps to install `vcpkg`, a C++ package manager, which is essential for building C++ projects that use external dependencies.
+## What is `vcpkg`?
+
+`vcpkg` is a C++ package manager developed by Microsoft that simplifies the process of installing and managing C++ libraries and dependencies. It provides a consistent way to install, build, and link external libraries across different platforms and build systems.
+
+## CMake Integration
+
+`vcpkg` is commonly used with CMake projects for managing external dependencies. CMake can automatically find and configure packages installed through `vcpkg` using the `CMAKE_TOOLCHAIN_FILE`:
+
+```bash
+# Configure CMake with vcpkg toolchain
+cmake -B build -S . -DCMAKE_TOOLCHAIN_FILE=C:/vcpkg/scripts/buildsystems/vcpkg.cmake
+
+# Build the project
+cmake --build build
+```
+
+This integration allows CMake to automatically locate and link against libraries installed via `vcpkg`, simplifying dependency management in C++ projects.
 
 ## Prerequisites
 
@@ -62,9 +78,3 @@ C:\vcpkg\vcpkg.exe list
 # Integrate with Visual Studio
 C:\vcpkg\vcpkg.exe integrate install
 ```
-
-## Related Projects
-
-This `vcpkg` installation is used by:
-- [The Basketball](https://github.com/yourusername/the-basketball-sfml) - SFML + Box2D physics game
-- [Vulkan Tutorial](https://github.com/yourusername/vulkan-tutorial-triangle) - Vulkan graphics tutorial 
