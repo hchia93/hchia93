@@ -1,27 +1,29 @@
-## 创建DependencyInstaller.Bat
+## 创建 DependencyInstaller.Bat
 
 一般有使用第三方依赖的项目，如果想要放在GitHub上展示，往往面临着几个问题：
 
 - 可能需要上传 `.lib` 或者 `.dll` 文件。如果不上传，其他用户可能无法顺利运行我的项目。
 - 需要应用 `.h` 或者 二进制类文件， 比如 `../bin` 里的内容。
 
-为此，我会使用 `cmake` 及 [`vcpkg`](https://github.com/hchia93/hchia93/blob/main/vcpkg-README.md) 来处理这些第三方依赖。
+两者都不太理想。
+
+为此，我会使用 `cmake` 及 [`vcpkg`](https://github.com/hchia93/hchia93/blob/main/vcpkg-README.md) 来处理这些第三方依赖, 生成新的 VisualStudio Solution。
 
 在这个过程中，我用了 `.bat` 文件来安装 Windows 上的第三方依赖库安装。
-每个项目都有不同的第三方依赖，我就需要为每个项目撰写一个新的`.bat`。这导致项目之间的文档打印格式**可能不够规范**。
+每个项目都有不同的第三方依赖，我封装了项目特定的第三方依赖在 `vcpkg.json` 文件里。 这样，我就能够**规范脚本**，尽可能地**去除异化点**。
 
-因此，我写了这个`README`，去记录每一个第三方依赖库会使用的句型，包括报错及安装状态，从而**规范**项目之间**类似功能的辅助脚本**。
-此外，由于使用了`vcpkg.json`去定义每一个项目里的动态部分，让脚本**可以有泛用**的可能。
+最后，结合我收集的资料，写了这份 `README` 以方便日后的更新。
 
-### 流程
+## 流程
 这个脚本的流程大致为：
 
-1. `git`
-2. `vcpkg`
-3. `vcpkg` 安装第三方依赖 （视项目而定)
-4. `cmake`
+1. 核对 `git`
+2. 核对 & 安装 `vcpkg`
+3. 安装 `vcpkg` 安装第三方依赖 （视项目而定)
+4. 核对 `cmake`
+---
 
-### 项目头
+### 脚本头
 ```cmd
 @echo off
 echo ========================================
@@ -30,7 +32,7 @@ echo ========================================
 echo.
 ```
 
-### 核对 Git 安装
+### 核对 git
 ```cmd
 REM Check if Git is installed
 git --version >nul 2>&1
@@ -47,7 +49,7 @@ if errorlevel 1 (
 
 echo [OK] Git is available
 ```
-### 核对 vcpkg 及 Prompt 安装
+### 核对及安装 vcpkg
 ```cmd
 REM Check if vcpkg is installed
 if not exist "%VCPKG_ROOT%\vcpkg.exe" (
@@ -84,7 +86,7 @@ if not exist "%VCPKG_ROOT%\vcpkg.exe" (
     echo [OK] vcpkg at: %VCPKG_ROOT%
 )
 ```
-### 核对 vcpkg.json (项目依赖文件)
+### 核对项目 vcpkg.json
 ```cmd
 REM Check if vcpkg.json exists
 if not exist "vcpkg.json" (
@@ -139,7 +141,7 @@ echo.
 cmake --version
 echo.
 ```
-### 收尾
+### 脚本尾
 ```cmd
 echo Dependency installation completed successfully!
 echo.
