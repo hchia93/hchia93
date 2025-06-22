@@ -26,6 +26,24 @@ The script roughly follows this flow:
 > **⚠️ Note:** 
 > `vcpkg install --triplet=x64-windows` will generate a folder named `vcpkg_installed/` on your project root to store locally installed packages. This is different from vcpkg's global installation directory. Please remember to add it in `.gitignore`.
 
+## Structure
+```cmd
+C:\vcpkg\                    ← vcpkg root (infrastructure)
+├── scripts/buildsystems/vcpkg.cmake
+├── ports/                   ← Package definitions
+└── installed/               ← Global packages (unused)
+
+Project1/
+├── vcpkg.json
+├── vcpkg_installed/         ← Project1's packages
+└── src/
+
+Project2/
+├── vcpkg.json  
+├── vcpkg_installed/         ← Project2's packages
+└── src/
+```
+
 ### Script Header
 ```cmd
 @echo off
