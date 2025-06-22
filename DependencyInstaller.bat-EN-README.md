@@ -23,7 +23,8 @@ The script roughly follows this flow:
 3. Install third-party dependencies with `vcpkg` (project-specific)
 4. Validate `cmake`
 
----
+> **⚠️ Note:** 
+> `vcpkg install --triplet=x64-windows` will generate a folder named `vcpkg_installed/` on your project root to store locally installed packages. This is different from vcpkg's global installation directory. Please remember to add it in `.gitignore`.
 
 ### Script Header
 ```cmd
