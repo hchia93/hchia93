@@ -21,7 +21,10 @@
 2. 核对 & 安装 `vcpkg`
 3. 安装 `vcpkg` 安装第三方依赖 （视项目而定)
 4. 核对 `cmake`
----
+
+> **⚠️ 注意事项**: 
+> 此脚本会在项目根径生成 `vcpkg_installed/` 文件夹。
+> 请将此目录登记在`.gitignore` 里.
 
 ### 脚本头
 ```cmd
@@ -147,4 +150,5 @@ echo Dependency installation completed successfully!
 echo.
 pause 
 ```
+
 
