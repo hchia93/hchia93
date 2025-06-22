@@ -23,8 +23,25 @@
 4. 核对 `cmake`
 
 > **⚠️ 注意事项**: 
-> 此脚本会在项目根径生成 `vcpkg_installed/` 文件夹。
-> 请将此目录登记在`.gitignore` 里.
+> `vcpkg install --triplet=x64-windows` 会在项目根径生成一个本地文件 `vcpkg_installed/`。这和全局安装目录是不一样的。记得将它登记在`.gitignore` 里.
+
+## 结构
+```cmd
+C:\vcpkg\                    ← vcpkg root (infrastructure)
+├── scripts/buildsystems/vcpkg.cmake
+├── ports/                   ← Package definitions
+└── installed/               ← Global packages (unused)
+
+Project1/
+├── vcpkg.json
+├── vcpkg_installed/         ← Project1's packages
+└── src/
+
+Project2/
+├── vcpkg.json  
+├── vcpkg_installed/         ← Project2's packages
+└── src/
+```
 
 ### 脚本头
 ```cmd
