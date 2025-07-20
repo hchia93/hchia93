@@ -14,37 +14,30 @@
 
 ## About Me
 
-Hi, I'm Hyrex, a seasoned **Gameplay Programmer** with over **7 years of experience** in the game industry. My journey has involved significant contributions to multiple AAA projects, leveraging expertise across various **C++ game engines**, including **Unreal Engine, Luminous Engine, CryEngine, and Anvil**. I have a strong passion for developing robust and efficient gameplay systems.
-
-Feel free to connect with me for remote work opportunities.
+Hi, I'm Hyrex, a **Gameplay Programmer** with over **7 years of experience** in the game industry.
+I have been a part of shipped AAA & AA games, contributed and implemented gameplay features using various **C++ based game engines**, such as **Unreal Engine 4/5, Luminous Engine, CryEngine, and the prosperity one**. 
 
 ## Shipped Titles
+### Skull & Bones: 
+* **Owned, designed, implemented and maintained gameplay systems** including mailbox (runtime/gameplay command/backend/account persistency), codex (data structure), blueprint/crafting (progression gating), shoppinglist/tracker (data persistency consolidation), security (server-sided gameplay command validations), captain customization (UI implementation/currency supports)
+* **Developed, and maintained gameplay feature adjacent tooling**, including extending ImGui debug tools, write auto-test script to ensure logic flow correctness, and prevent unindented API usage and issue regressions.
+* **Collaborated with cross-functional and external teams**, produced technical documentation via Confluence, Miro, and resolving issues via JIRA, integrated with Perforce workflows.
+* **Participated in playeraccount data handling and data commits to backends**, ensured player data integrity, reduced data loses when server crashed.
+  
+### Sniper Ghost Warrior(Contract):
+* **Performed partial engine upgrade** and implemented `curl` into the project, enabled multiplayer implementations.
+* **Fixed issues for UI components** in ActionScripts, improved UI navigation experiences.
+* **Supported TRC and Platform compliances** for XBOX and PSN, reduced submission blockers.
 
 ### Final Fantasy XV: 
-* **Engine:** Luminous Engine
-* **Contributions:**
-    * **Debugged and optimized core gameplay systems** within critical areas (Titans Area, Adamantoise Boss fight, Zu Boss fight) to enhance performance and stability.
-    * **Developed and maintained in-game debug menus** for efficient console-based issue diagnosis and workflow improvements.
+* **Investigated assigned issues as co-dev partner**, proposed solution and prepared code shelves for reviews.
+* **Maintained and Extending in-game debug menu** upon QA's request and improved console debugging efficiency.
+* **Debugged and optimized assigned scenes** for specific levels, improved performance and resolved blockers.
       
-### Sniper Ghost Warrior(Contract):
-* **Contributions:**
-    * **Integrated outdated CryEngine systems with `curl`** to enable and stabilize multiplayer functionality.
-    * **Implemented and debugged UI elements** for the weapon layout menu, improving user experience.
-
-
-### Skull & Bones: 
-* **Engine:** Anvil
-    * **Collection/Codex:** Designed and implemented **C++ Linked-array structures** for hierarchical item grouping and UI layering.
-    * **Mailbox System:** Engineered comprehensive client, server, and backend logic for mail notification, item claims, grants, removals, and rollback mechanisms, ensuring data integrity.
-    * **Blueprint/Crafting:** Programmed **progression gating systems** for item crafting, controlling player advancement.
-    * **Shopping List / Tracker:** Consolidated data persistence across multiple core systems (blueprints, crafting, objectives, world events, pirate affairs) for unified tracking and ensure its consistency after re-login.
-    * **Security:** Integrated **server-side security validations** for critical commands to prevent exploits on owned features.
-    * **UI/UX:** Collaborated on **high-priority UI/UX bug fixes** to meet aggressive release deadlines.
-    * **Captain Customization:** Took ownership of a legacy module, **refactoring vendor logic** to support soft and hard currencies. Took ownership in fixing captain customization related UI which usually falls on tech-art domains.
-    * **Tools:** Developed **ImGui-based debugging and auto-test scripts** for various gameplay systems, significantly streamlining development and QA processes.
-
 ## Personal Project Builds
 These projects showcase my C++ and game development skills through hands-on implementation:
-* **[Project Nima](https://drive.google.com/file/d/1aHa33I2-znXrFd1QMnyLHrO3xCOqvIcn/view?usp=drive_link):** A 3D puzzle game developed used to develop in UE4, now upgradated to UE5, focusing on controllable cube mechanics and level progression. 
-* **[Project Fish](https://drive.google.com/file/d/17hUXWRPUCUvkPjyif2EEIAQLEkhOZqwK/view?usp=drive_link):** An exploration project in UE5, focusing on advanced **Animation State Machines** and **combo system implementation**.
-* **[Escape From Wizard](https://github.com/hchia93/escape-from-wizard):** Developed during University, demonstrating A* Pathfinding Algorithm implementation for optimal shortest path solutions in a collection-based game.
+* **[Project Nima](https://drive.google.com/file/d/1aHa33I2-znXrFd1QMnyLHrO3xCOqvIcn/view?usp=drive_link):** Built and upgraded a 3D puzzle game from Unreal Engine 4 to 5, featuring rotatable cube puzzle, interaction and level progression.
+* **[Project Fish](https://drive.google.com/file/d/17hUXWRPUCUvkPjyif2EEIAQLEkhOZqwK/view?usp=drive_link):** Built an exploration project in Unreal Engine 5, implemented combo system using Animation State Machines.
+* **[Escape From Wizard](https://github.com/hchia93/escape-from-wizard):** Built a demo of an escape game, featuring A* pathfinding algorithm for the enemy to search and reach to player.
+
+Feel free to connect with me for remote work opportunities.
