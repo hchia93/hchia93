@@ -15,7 +15,7 @@
 ## About Me
 
 Hi, I'm Hyrex, a **Gameplay Programmer** with over **7 years of experience** in the game industry.
-I have been a part of shipped AAA & AA games, contributed and implemented gameplay features using various **C++ based game engines**, such as **Unreal Engine 4/5, Luminous Engine, CryEngine, and the prosperity one**. 
+I have been a part of shipped AAA & AA games, contributed and implemented gameplay features using various **C++ based game engines**, such as **Unreal Engine 4/5, Luminous Engine, CryEngine, and the proprietary one**. 
 
 ## Shipped Titles
 ### Skull & Bones: 
