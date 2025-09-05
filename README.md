@@ -16,7 +16,7 @@ Feel free to connect with me for any opportunities.
 - **Engines**: Unreal Engine 4/5, Luminous Engine, CryEngine, proprietary engines
 
 - **Responsibilities**: 
-  - Gameplay system (runtime / combat / progressions)
+  - Gameplay System (runtime, combat, progressions)
   - UI/UX (implementation, polish, cross-team alignment & collaboration)
   - Multiplayer & Persistence (backend validation, account data management, debug toolings)
 
@@ -24,7 +24,7 @@ Feel free to connect with me for any opportunities.
 
 - Strong background in **modern C++** for real-time applications
 
-- Learning and applying concepts in multithreading, replication, memory management, and tooling
+- Learning and applying concepts in multithreading, replication and memory management
 
 - Experience with **CI/CD pipelines, automated testing, and cross-platform compliance**
 
@@ -33,12 +33,12 @@ Feel free to connect with me for any opportunities.
 ## 🚀 Personal Projects
 | Project | Engine | Description |
 |--|--|--|
-| [TUNSTEN](https://github.com/hchia93/ufo-survivor) (WIP) | UE5.6 | Roguelite defense/shooter. |
+| [TUNGSTEN](https://github.com/hchia93/ufo-survivor) (WIP) | UE5.6 | Roguelite defense/shooter. |
 | [NIMA](https://drive.google.com/file/d/1aHa33I2-znXrFd1QMnyLHrO3xCOqvIcn/view?usp=drive_link) (DEMO) | UE5 | Rotatable cube, puzzle game. |
 | [FISH](https://drive.google.com/file/d/17hUXWRPUCUvkPjyif2EEIAQLEkhOZqwK/view?usp=drive_link) (WIP) | UE5 | Combo Combat via Animation State Machine. |
-| [Escape from Wizard](https://github.com/hchia93/escape-from-wizard) (DEMO) | XNA / MonoGame| Escaping game. Featuring enemy A* path finding. |
+| [Escape from Wizard](https://github.com/hchia93/escape-from-wizard) (DEMO) | XNA / MonoGame| Escaping game with enemy A* path finding. |
 
-## Stats
+## 📊 Language Stats
 <div align="left" style="margin-top: 40px;">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hchia93&layout=compact&bg_color=282a36&title_color=AAEDFF&text_color=fff" />
 </div>
