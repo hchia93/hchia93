@@ -1,6 +1,10 @@
 ## About me 
 **Gameplay Programmer** | **C++ Developer**
 
+![C++](https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Unreal Engine](https://img.shields.io/badge/Unreal_Engine-0E1128?logo=unrealengine&logoColor=white)
+
 ![Badge1](https://img.shields.io/badge/Open_For_Work-Yes-green)
 ![Badge2](https://img.shields.io/badge/Remote-Ok-green)
 ![Badge3](https://img.shields.io/badge/Singapore-PR-blue)
@@ -24,11 +28,11 @@ Feel free to connect with me for any opportunities.
 
 - Strong background in **modern C++** for real-time applications
 
-- Learning and applying concepts in multithreading, replication and memory management
+- Learning and applying concepts in multithreading, and memory management
 
 - Experience with **CI/CD pipelines, automated testing, and cross-platform compliance**
 
-- Languages & Tools: `C++`, `Python`, `SQL`, `VBA`, `Git`, `Perforce`, `JIRA`, `Miro`
+- Languages & Tools: `C++`, `Python`, `SQL`, `VBA`, `Perforce`, `JIRA`, `Miro`
  
 ## 🚀 Personal Projects
 | Project | Engine | Status | Description |
