@@ -31,12 +31,12 @@ Feel free to connect with me for any opportunities.
 - Languages & Tools: `C++`, `Python`, `SQL`, `VBA`, `Git`, `Perforce`, `JIRA`, `Miro`
  
 ## 🚀 Personal Projects
-| Project | Engine | Description |
-|--|--|--|
-| [TUNGSTEN](https://github.com/hchia93/ufo-survivor) (WIP) | UE5.6 | Roguelite defense/shooter. |
-| [NIMA](https://drive.google.com/file/d/1aHa33I2-znXrFd1QMnyLHrO3xCOqvIcn/view?usp=drive_link) (DEMO) | UE5 | Rotatable cube, puzzle game. |
-| [FISH](https://drive.google.com/file/d/17hUXWRPUCUvkPjyif2EEIAQLEkhOZqwK/view?usp=drive_link) (WIP) | UE5 | Combo Combat via Animation State Machine. |
-| [Escape from Wizard](https://github.com/hchia93/escape-from-wizard) (DEMO) | XNA / MonoGame| Escaping game with enemy A* path finding. |
+| Project | Engine | Status | Description |
+|--|--|--|--|
+| [TUNGSTEN](https://github.com/hchia93/ufo-survivor) | UE5.6 | WIP | Roguelite defense/shooter. |
+| [FISH](https://drive.google.com/file/d/17hUXWRPUCUvkPjyif2EEIAQLEkhOZqwK/view?usp=drive_link) | UE5 | WIP |  Combo Combat via Animation State Machine. |
+| [NIMA](https://drive.google.com/file/d/1aHa33I2-znXrFd1QMnyLHrO3xCOqvIcn/view?usp=drive_link) | UE5 | Demo Ready | Rotatable cube, puzzle game. |
+| [Escape from Wizard](https://github.com/hchia93/escape-from-wizard) | XNA / MonoGame | Demo Ready | Escaping game with enemy A* path finding. |
 
 ## 📊 Language Stats
 <div align="left" style="margin-top: 40px;">
