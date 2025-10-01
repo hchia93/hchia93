@@ -11,7 +11,9 @@
 
 **Core Expertise**: C++ Systems Programming (8 years in AAA games)
 
-**Current Exploration**: Backend architecture & modern tooling (Node.js, PostgreSQL)
+**Current Exploration**: 
+- Tech Broaden: Backend architecture & modern tooling (Node.js, PostgreSQL)
+- Tech Deepen: Updating knowledge of concurrencies and multithreading (next)
 
 I'm expanding beyond game development into system-level backend work,
 while maintaining strong C++ fundamentals. My GitHub showcases both  my C++ system programming practice and backend exploration projects.
