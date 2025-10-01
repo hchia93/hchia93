@@ -18,6 +18,65 @@ while maintaining strong C++ fundamentals. My GitHub showcases both  my C++ syst
 
 Feel free to connect with me for any opportunities.
 
+## Role Landscape
+
+**Software Development**
+```mermaid
+flowchart TB
+    Y[<- Me]
+    X[Exploration Direction ->>]
+
+    subgraph MainPath[ ]
+        direction LR
+        A[Frontend]
+        B[System]
+        C[Backend]
+        D[Cloud / Infrastructure]
+    end
+
+    Y --> B
+    X --> C
+
+    classDef you fill:#ffd966,stroke:#333,stroke-width:2px
+    classDef expand fill:#b6d7a8,stroke:#333,stroke-width:2px
+    classDef game fill:#9fc5e8,stroke:#333,stroke-width:2px
+    classDef cloud fill:#d9d2e9,stroke:#333,stroke-width:2px
+
+    class A game
+    class B you
+    class C expand
+    class D cloud
+```
+**Game Development**
+```mermaid
+flowchart TB
+    X[Exploration Direction->>]
+    Y[Me]
+    Z[<-]
+
+    subgraph MainPath[ ]
+        direction LR
+        A[Frontend]
+        B[Runtime]
+        C[Backend]
+        D[Cloud / Infrastructure]
+    end
+
+    Y --> B
+    X --> C
+    Z --> A
+
+    classDef you fill:#ffd966,stroke:#333,stroke-width:2px
+    classDef expand fill:#b6d7a8,stroke:#333,stroke-width:2px
+    classDef game fill:#9fc5e8,stroke:#333,stroke-width:2px
+    classDef cloud fill:#d9d2e9,stroke:#333,stroke-width:2px
+
+    class A game
+    class B you
+    class C expand
+    class D cloud
+```
+
 ## 💻 C++ Development
 
 - Strong background in **modern C++** for real-time applications
