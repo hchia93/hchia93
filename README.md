@@ -9,16 +9,16 @@
 ![Badge2](https://img.shields.io/badge/Remote-Ok-green)
 ![Badge3](https://img.shields.io/badge/Singapore-PR-blue)
 
-**Core Expertise**: C++ Systems Programming (8 years in AAA games)
+## 🎯 Core & Focus
 
-**Current Exploration**: 
-- Tech Broaden: Backend architecture & modern tooling (Node.js, PostgreSQL)
-- Tech Deepen: Updating knowledge of concurrencies and multithreading (next)
+**Core Strength**: C++ Systems Programming (8 years in AAA game productions)  
 
-I'm expanding beyond game development into system-level backend work,
-while maintaining strong C++ fundamentals. My GitHub showcases both  my C++ system programming practice and backend exploration projects.
+**Current Focus**: Expanding beyond game development into **system-level backend engineering**,  
+while maintaining strong C++ fundamentals. Exploring backend patterns and tools to complement my performance-critical systems expertise.  
 
-Feel free to connect with me for any opportunities.
+**Up Next**: Deepening knowledge in **concurrency and multithreading**, especially queue-based data structures.  
+
+Feel free to connect with me for any opportunities in **C++ systems programming**, **game development**, or **performance-critical applications**.
 
 ## Role Landscape
 
@@ -79,14 +79,6 @@ flowchart TB
     class D cloud
 ```
 
-## 💻 C++ Development
-
-- Learning and applying concepts in multithreading and memory management (handling backend asyncs)
-
-- Aware with **CI/CD pipelines, automated testing, and cross-platform compliance**
-
-- **Languages & Tools:** `C++`, `Python`, `SQL`, `Git`
-
 ## 🎮 Game Development
 - **8 years** professional experience in gameplay programming
 
@@ -106,7 +98,16 @@ flowchart TB
 | UI/UX | UI/UX (implementation, polish, cross-team alignment & collaboration) |
 | Network & Tooling | Multiplayer & Account (backend validation, account data management, debug tooling, monitoring with Kibana) |
 
-### Projects
+## 💻 C++ Development
+
+- Learning and applying concepts in multithreading and memory management (handling backend asyncs)
+
+- Aware with **CI/CD pipelines, automated testing, and cross-platform compliance**
+
+- **Languages & Tools:** `C++`, `Python`, `SQL`, `Git`
+
+
+### Game Projects
 | Project | Engine | Status | Description |
 |--|--|--|--|
 | [TUNGSTEN](https://github.com/hchia93/ufo-survivor) | UE5.6 | WIP | Roguelite defense/shooter |
@@ -118,3 +119,5 @@ flowchart TB
 <div align="left" style="margin-top: 40px;">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hchia93&layout=compact&bg_color=282a36&title_color=AAEDFF&text_color=fff" />
 </div>
+
+
