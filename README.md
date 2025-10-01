@@ -81,13 +81,11 @@ flowchart TB
 
 ## 💻 C++ Development
 
-- Strong background in **modern C++** for real-time applications
-
 - Learning and applying concepts in multithreading and memory management (handling backend asyncs)
 
-- Experience with **CI/CD pipelines, automated testing, and cross-platform compliance**
+- Aware with **CI/CD pipelines, automated testing, and cross-platform compliance**
 
-- Languages & Tools: `C++`, `Python`, `SQL`, `VBA`, `Perforce`, `JIRA`, `Miro`
+- **Languages & Tools:** `C++`, `Python`, `SQL`, `Git`
 
 ## 🎮 Game Development
 - **8 years** professional experience in gameplay programming
@@ -97,6 +95,8 @@ flowchart TB
 - **Commercial Engines**: `Unreal Engine 4/5`, `CryEngine 3`
   
 - **Proprietary engines:** `Luminous Engine`, `Anvil`
+
+- **Languages, Platform & Tools:** `C++`, `SQL`, `Perforce`, `JIRA`, `Miro`, `Confluence`
 
 - **Responsibilities**:
  
