@@ -9,16 +9,33 @@
 ![Badge2](https://img.shields.io/badge/Remote-Ok-green)
 ![Badge3](https://img.shields.io/badge/Singapore-PR-blue)
 
+**Core Expertise**: C++ Systems Programming (8 years in AAA games)
+
+**Current Exploration**: Backend architecture & modern tooling (Node.js, PostgreSQL)
+
+I'm expanding beyond game development into system-level backend work,
+while maintaining strong C++ fundamentals. My GitHub showcases both  my C++ system programming practice and backend exploration projects.
+
 Feel free to connect with me for any opportunities.
+
+## 💻 C++ Development
+
+- Strong background in **modern C++** for real-time applications
+
+- Learning and applying concepts in multithreading and memory management (handling backend asyncs)
+
+- Experience with **CI/CD pipelines, automated testing, and cross-platform compliance**
+
+- Languages & Tools: `C++`, `Python`, `SQL`, `VBA`, `Perforce`, `JIRA`, `Miro`
 
 ## 🎮 Game Development
 - **8 years** professional experience in gameplay programming
 
 - **Shipped Titles**: *Skull & Bones*, *Final Fantasy XV*, *Sniper Ghost Warrior: Contracts*
 
-- **Commercial Engines**: Unreal Engine 4/5, CryEngine 3
+- **Commercial Engines**: `Unreal Engine 4/5`, `CryEngine 3`
   
-- **Proprietary engines:** Luminous Engine, Anvil
+- **Proprietary engines:** `Luminous Engine`, `Anvil`
 
 - **Responsibilities**:
  
@@ -35,16 +52,6 @@ Feel free to connect with me for any opportunities.
 | [FISH](https://drive.google.com/file/d/17hUXWRPUCUvkPjyif2EEIAQLEkhOZqwK/view?usp=drive_link) | UE5 | WIP |  Combo Combat via Animation State Machine |
 | [NIMA](https://drive.google.com/file/d/1aHa33I2-znXrFd1QMnyLHrO3xCOqvIcn/view?usp=drive_link) | UE5 | Demo Ready | Rotatable cube, puzzle game |
 | [Escape from Wizard](https://github.com/hchia93/escape-from-wizard) | XNA / MonoGame | Demo Ready | Escape game with enemy A* pathfinding |
-
-## 💻 C++ Development
-
-- Strong background in **modern C++** for real-time applications
-
-- Learning and applying concepts in multithreading and memory management
-
-- Experience with **CI/CD pipelines, automated testing, and cross-platform compliance**
-
-- Languages & Tools: `C++`, `Python`, `SQL`, `VBA`, `Perforce`, `JIRA`, `Miro`
 
 ## 📊 Language Stats
 <div align="left" style="margin-top: 40px;">
