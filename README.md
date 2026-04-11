@@ -1,123 +1,78 @@
-## About me 
-**Gameplay Programmer** | **C++ Developer**
+## Hyrex Chia
+
+Gameplay / Systems Programmer
+
+**Malaysian / Singapore PR · Remote-friendly**
 
 ![C++](https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![Unreal Engine](https://img.shields.io/badge/Unreal_Engine-0E1128?logo=unrealengine&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 
-![Badge1](https://img.shields.io/badge/Open_For_Work-Yes-green)
-![Badge2](https://img.shields.io/badge/Remote-Ok-green)
-![Badge3](https://img.shields.io/badge/Singapore-PR-blue)
+> Gameplay programmer with 8 years in AAA production, now working on an indie title while extending into tooling, AI-assisted workflows, and system-level C++.
 
-## 🎯 Core & Focus
+`C++` · `Python` · `SQL` · `Unreal Engine` · `Perforce` · `SVN` · `Git` · `Claude` · `JIRA` · `Confluence`
 
-**Core Strength**: C++ Systems Programming (8 years in AAA game productions)  
+---
 
-**Current Focus**: Expanding beyond game development into **system-level backend engineering**,  
-while maintaining strong C++ fundamentals. Exploring backend patterns and tools to complement my performance-critical systems expertise.  
 
-**Up Next**: Deepening knowledge in **concurrency and multithreading**, especially queue-based data structures.  
+### What I do well
 
-Feel free to connect with me for any opportunities in **C++ systems programming**, **game development**, or **performance-critical applications**.
+- **Unreal Engine**: first picked up UE4 early in my career at Streamline Studios, and now my daily driver on UE5 at TenTen Studios. Specifics under NDA; the public slice lives in the UE tooling repos below.
+- **Engine breadth beyond UE**: shipped AAA production on Ubisoft Singapore's Anvil, plus earlier outsourced AAA work on Luminous and CryEngine during my Streamline Studios years. Breadth across engine architectures, not just UE fluency.
+- **C++ gameplay & systems**: runtime, combat, progression, inventory, networked account flows, backend validation
+- **Tooling & pipeline glue**: removing friction at the seams where code, agents, and humans meet
+- **Lead by implementation**: most of my hours go to writing code, not meetings. Architecture and constraints are set ahead of time so the rest of the team has room to execute.
+- **Shipping discipline from AAA**: production-grade code under milestone gates, certification, and cross-team alignment
 
-## Role Landscape
+### Currently
 
-**Software Development**
-```mermaid
-flowchart TB
-    Y[<- Me]
-    X[Exploration Direction ->>]
+Working on an indie title at the pre-vertical-slice stage, in a hybrid role between team lead and solo developer (supported by a junior). Most of my hours go to implementation; group decisions are reserved for the few moments that genuinely need consensus. A large part of the job is setting the invisible constraints the rest of the work is built on.
 
-    subgraph MainPath[ ]
-        direction LR
-        A[Frontend]
-        B[System]
-        C[Backend]
-        D[Cloud / Infrastructure]
-    end
+The tooling I build alongside that work is aimed at reducing friction between me and the AI coding agents I use daily. Milestone gating and production hygiene on the project are adapted from AAA practice, applied pragmatically at a much smaller scale.
 
-    Y --> B
-    X --> C
+Separately, I am actively exploring **modern C++ (C++20/23)**: coroutines, concepts, and clean template wrapper design.
 
-    classDef you fill:#ffd966,stroke:#333,stroke-width:2px
-    classDef expand fill:#b6d7a8,stroke:#333,stroke-width:2px
-    classDef game fill:#9fc5e8,stroke:#333,stroke-width:2px
-    classDef cloud fill:#d9d2e9,stroke:#333,stroke-width:2px
+---
 
-    class A game
-    class B you
-    class C expand
-    class D cloud
-```
-**Game Development**
-```mermaid
-flowchart TB
-    X[Exploration Direction->>]
-    Y[Me]
-    Z[<-]
+### Shipped productions
 
-    subgraph MainPath[ ]
-        direction LR
-        A[Frontend]
-        B[Runtime]
-        C[Backend]
-        D[Cloud / Infrastructure]
-    end
-
-    Y --> B
-    X --> C
-    Z --> A
-
-    classDef you fill:#ffd966,stroke:#333,stroke-width:2px
-    classDef expand fill:#b6d7a8,stroke:#333,stroke-width:2px
-    classDef game fill:#9fc5e8,stroke:#333,stroke-width:2px
-    classDef cloud fill:#d9d2e9,stroke:#333,stroke-width:2px
-
-    class A game
-    class B you
-    class C expand
-    class D cloud
-```
-
-## 🎮 Game Development
-- **8 years** professional experience in gameplay programming
-
-- **Shipped Titles**: *Skull & Bones*, *Final Fantasy XV*, *Sniper Ghost Warrior: Contracts*
-
-- **Commercial Engines**: `Unreal Engine 4/5`, `CryEngine 3`
-  
-- **Proprietary engines:** `Luminous Engine`, `Anvil`
-
-- **Languages, Platform & Tools:** `C++`, `SQL`, `Perforce`, `JIRA`, `Miro`, `Confluence`
-
-- **Responsibilities**:
- 
-| Area | Topics |
+| Title | Engine |
 |--|--|
-| Core | Gameplay (runtime, combat, progression, inventory) |
-| UI/UX | UI/UX (implementation, polish, cross-team alignment & collaboration) |
-| Network & Tooling | Multiplayer & Account (backend validation, account data management, debug tooling, monitoring with Kibana) |
+| *Skull & Bones* | Anvil (proprietary) |
+| *Final Fantasy XV* | Luminous (proprietary) |
+| *Sniper Ghost Warrior: Contracts* | CryEngine 3 |
 
-## 💻 C++ Development
+### Systems experience
 
-- Learning and applying concepts in multithreading and memory management (handling backend asyncs)
+Systems I have built and maintained across shipped AAA productions and current indie work.
 
-- Aware with **CI/CD pipelines, automated testing, and cross-platform compliance**
+| Tech layer | Product layer |
+|--|--|
+| UI/UX implementation | Progression |
+| Replication and RPC testing | Inventory |
+| State machines | Trackers |
+| Input switching | Attack system |
+| Async loading (e.g. account data) | Deathloop |
+| Config file design | Core gameplay loop |
+| Character / BP hierarchy abstraction | |
 
-- **Languages & Tools:** `C++`, `Python`, `SQL`, `Git`
+---
 
+### Technical side projects
 
-### Game Projects
-| Project | Engine | Status | Description |
-|--|--|--|--|
-| [TUNGSTEN](https://github.com/hchia93/ufo-survivor) | UE5.6 | WIP | Roguelite defense/shooter |
-| [FISH](https://drive.google.com/file/d/17hUXWRPUCUvkPjyif2EEIAQLEkhOZqwK/view?usp=drive_link) | UE5 | WIP |  Combo Combat via Animation State Machine |
-| [NIMA](https://drive.google.com/file/d/1aHa33I2-znXrFd1QMnyLHrO3xCOqvIcn/view?usp=drive_link) | UE5 | Demo Ready | Rotatable cube, puzzle game |
-| [Escape from Wizard](https://github.com/hchia93/escape-from-wizard) | XNA / MonoGame | Demo Ready | Escape game with enemy A* pathfinding |
+Each repo exists to solve a specific engineering problem. These are where the public evidence for the claims above lives.
 
-## 📊 Language Stats
-<div align="left" style="margin-top: 40px;">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hchia93&layout=compact&bg_color=282a36&title_color=AAEDFF&text_color=fff" />
-</div>
+| Project | Stack | Problem it solves |
+|--|--|--|
+| [uasset-json-exporter](https://github.com/hchia93/uasset-json-exporter) | UE5 C++ plugin | Exposes `.uasset` binary content to external tooling by routing a commandlet through UE's serialization path |
+| [uasset-name-linter](https://github.com/hchia93/uasset-name-linter) | Python | Scans a UE project for asset filename convention violations before they accumulate into production debt |
+| [cpp-topics](https://github.com/hchia93/cpp-topics) | Modern C++ | Systematic practice ground for algorithms, data structures, and system-level primitives |
+| [cmd-spaceship](https://github.com/hchia93/cmd-spaceship) | C++, Winsock2 | Multiplayer shooter implemented at the socket level, with no engine scaffolding underneath |
+| [mock-store-payment-backend](https://github.com/hchia93/mock-store-payment-backend) | Node.js, PostgreSQL | Game store backend prototype covering REST API, schema, and transaction flow |
+| [escape-from-wizard](https://github.com/hchia93/escape-from-wizard) | C#, MonoGame | A* pathfinding for enemy AI in a 2D escape game |
 
+---
 
+### Contact
+
+Open to technical conversations around C++ systems, gameplay engineering, and tooling. Reach me through GitHub.
