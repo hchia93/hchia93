@@ -15,40 +15,47 @@
 
 > *交付 gameplay 系统，以及让它们能交付的工具。*
 >
-> *我仍然手动跑的那道筛子，有 AI 之后尤甚：这件事的回报值不值得投入，它有没有解决实际问题。*
+> *我仍然手动跑的那道筛子 — 这件事的回报值不值得投入？它有没有解决实际问题？有 AI 之后尤甚。*
 
 </div>
 
 ---
 
-### 现在
+<div align="center">
 
-**Intermediate Gameplay Programmer，TenTen Studios。** UE5 单机 action RPG，vertical-slice 原型阶段。一个人撑起项目的 tech 担当，主导技术决策。
+### ![现在](https://img.shields.io/badge/现在-8B6F47?style=for-the-badge)
 
-- **C++ gameplay 系统**：data-driven 架构（DataAsset、DeveloperSettings、payload 定义）、UI/UX（HUD、菜单、浮空生命条）、state machines、attack payloads（damage、status、interrupt）、shield / health、3C。能力 / AI 框架搭在 GAS + Gameplay Tags + Behavior Tree 上。
-- **Tooling**：编辑器 commandlet、资产命名 linter、构建流程纪律。动机来自反复出现的内容团队痛点（SVN 冲突、版本问题、数据引用损坏）。已公开：[uasset-json-exporter](https://github.com/hchia93/uasset-json-exporter)、[uasset-name-linter](https://github.com/hchia93/uasset-name-linter)。
-- **Workflow**：2026 年 3 月起用 Claude Code 协同交付。重心从 "代码技术导向" 转到 "系统交付导向"。
-- **Code shape**：系统写得 debuggable 且 regression-testable，harness 一旦值得上就能直接接入。
+</div>
 
-欢迎就 C++ 系统、gameplay 工程、tooling 方向聊。当前项目的细节受 NDA 约束。
+**Intermediate Gameplay Programmer @ TenTen Studios。** UE5 单机 action RPG，vertical-slice 原型阶段。撑起项目的 tech 担当，主导技术决策。
+
+- **C++ gameplay 核心系统**：覆盖 UI/UX、state machines、3C、behavior-oriented actor components、GAS、Gameplay Tags、Behavior Tree、按需 Subsystems，服务于 prototype。
+- **Data-driven 系统架构**：DataAsset + DeveloperSettings 作为作者层，runtime validator 和 linter 作为审计层。设计师无需动代码即可迭代。
+- **Tooling**：基于内容团队反复出现的痛点（source control 冲突、数据引用损坏、批量操作）做 tooling。示例：[uasset-json-exporter](https://github.com/hchia93/uasset-json-exporter)、[uasset-name-linter](https://github.com/hchia93/uasset-name-linter)。
+- **Workflow**：2026 年 3 月起用 Claude Code 协同。重心从 code-technique 导向转到 system-delivery 导向。
 
 ---
 
-### 过往
+<div align="center">
 
-AAA 制作，2016 – 2024。
+### ![过往](https://img.shields.io/badge/过往-8B6F47?style=for-the-badge)
 
-| 作品 | 引擎 | 工作室 |
-|--|--|--|
-| *Skull & Bones* | Anvil (Ubisoft 自研) | Ubisoft Singapore |
-| *Final Fantasy XV* | Luminous (Square Enix 自研) | Streamline Studios (外包) |
-| *Sniper Ghost Warrior: Contracts* | CryEngine 3 | Streamline Studios (外包) |
+AA & AAA 制作，2016 - 2024，2025 - 2026。
 
-- **引擎轨迹**：UE4、Luminous、CryEngine 3、Anvil、UE4/UE5。UE 经验非连续。
-- **AAA 出货过的系统**：multi-verb RPC API（Send / Fetch / Claim / Update）+ 跨团队 paginated fetch、async callback chain sequencing（Lazy → Periodic Sync）、simulation vs actual claim 和解、runtime ↔ backend 桥接、account persistence、progression 系统（codex、crafting、tracker）。
-- **CI 关卡下的 auto-testable C++**：生产级单元测试，失败 flag 团队。
-- **Modern C++**：C++20/23、concepts、小 template wrapper。
-- **日常工具链**：`C++` · `Python` · `SQL` · `Unreal Engine` · `Perforce` · `SVN` · `Git` · `Claude Code` · `JIRA` · `Confluence`。
+| 作品 | 类型 | 引擎 | 工作室 |
+|--|--|--|--|
+| *Bloodwell* | `单` | Unreal Engine 5 | TenTen Studios |
+| *Skull & Bones* | `多` | Anvil & Phoenix (Ubisoft 自研) | Ubisoft Singapore |
+| *Final Fantasy XV* | `单` | Luminous (Square Enix 自研) | Streamline Studios (外包) |
+| *Sniper Ghost Warrior: Contracts* | `多` | CryEngine 3 | Streamline Studios (外包) |
+| *NDA Projects* | `单` `多` | Unreal Engine 4 | Streamline Studios (未发行) |
+
+</div>
+
+- **引擎经验**：Anvil、Luminous、CryEngine 3 在出货 AAA 上；UE4 / UE5 在内部与原型上。UE 经验非连续。
+- **GaaS gameplay 系统 (Skull & Bones)**：Codex、crafting、Mail（Send / Fetch / Claim / Update 多动词 RPC + 跨团队分页 fetch）、captain customization、shop / offer extension。内容团队可扩展，无需改代码。Gameplay Runtime 侧 ownership；与 backend 侧协作保证 feature 一致性与交付。
+- **Async + server-authoritative 模式**：callback chain 排序（Lazy → Periodic Sync）、simulation-vs-actual claim 和解、runtime ↔ backend 桥接、account persistence。
+- **Production CI 纪律**：CI 下 regression-testable 的 C++（DTest — 每日在 build artifact 上跑 regression，flag-not-block submit）。
 
 <div align="center">
 
