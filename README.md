@@ -1,78 +1,71 @@
-## Hyrex Chia
+<div align="center">
 
-Gameplay / Systems Programmer
+**English** | [中文](README_CN.md)
 
-**Malaysian / Singapore PR · Remote-friendly**
+# Hyrex Chia
+
+**Gameplay / Systems Programmer** · AAA across Anvil, Luminous, CryEngine 3 · now on UE5
 
 ![C++](https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white)
-![Unreal Engine](https://img.shields.io/badge/Unreal_Engine-0E1128?logo=unrealengine&logoColor=white)
+![Unreal Engine 5](https://img.shields.io/badge/Unreal_Engine_5-0E1128?logo=unrealengine&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?logo=anthropic&logoColor=white)
 
-> Gameplay programmer with 8 years in AAA production, now working on an indie title while extending into tooling, AI-assisted workflows, and system-level C++.
+Malaysia-based · Singapore PR · Remote-friendly
 
-`C++` · `Python` · `SQL` · `Unreal Engine` · `Perforce` · `SVN` · `Git` · `Claude` · `JIRA` · `Confluence`
+> *Ship gameplay systems, and the tools that make them shippable.*
+>
+> *The filter I still run by hand, is the return worth the effort, does this solve a real problem. Even more so with AI.*
 
----
-
-
-### What I do well
-
-- **Unreal Engine**: first picked up UE4 early in my career at Streamline Studios, and now my daily driver on UE5 at TenTen Studios. Specifics under NDA; the public slice lives in the UE tooling repos below.
-- **Engine breadth beyond UE**: shipped AAA production on Ubisoft Singapore's Anvil, plus earlier outsourced AAA work on Luminous and CryEngine during my Streamline Studios years. Breadth across engine architectures, not just UE fluency.
-- **C++ gameplay & systems**: runtime, combat, progression, inventory, networked account flows, backend validation
-- **Tooling & pipeline glue**: removing friction at the seams where code, agents, and humans meet
-- **Lead by implementation**: most of my hours go to writing code, not meetings. Architecture and constraints are set ahead of time so the rest of the team has room to execute.
-- **Shipping discipline from AAA**: production-grade code under milestone gates, certification, and cross-team alignment
-
-### Currently
-
-Working on an indie title at the pre-vertical-slice stage, in a hybrid role between team lead and solo developer (supported by a junior). Most of my hours go to implementation; group decisions are reserved for the few moments that genuinely need consensus. A large part of the job is setting the invisible constraints the rest of the work is built on.
-
-The tooling I build alongside that work is aimed at reducing friction between me and the AI coding agents I use daily. Milestone gating and production hygiene on the project are adapted from AAA practice, applied pragmatically at a much smaller scale.
-
-Separately, I am actively exploring **modern C++ (C++20/23)**: coroutines, concepts, and clean template wrapper design.
+</div>
 
 ---
 
-### Shipped productions
+<div align="center">
 
-| Title | Engine |
-|--|--|
-| *Skull & Bones* | Anvil (proprietary) |
-| *Final Fantasy XV* | Luminous (proprietary) |
-| *Sniper Ghost Warrior: Contracts* | CryEngine 3 |
+### ![Currently](https://img.shields.io/badge/Currently-8B6F47?style=for-the-badge)
 
-### Systems experience
+</div>
 
-Systems I have built and maintained across shipped AAA productions and current indie work.
+**Intermediate Gameplay Programmer @ TenTen Studios.** Developing UE5 single-player action RPG, vertical-slice prototype. Carrying the tech side of the project, leading the technical decisions.
 
-| Tech layer | Product layer |
-|--|--|
-| UI/UX implementation | Progression |
-| Replication and RPC testing | Inventory |
-| State machines | Trackers |
-| Input switching | Attack system |
-| Async loading (e.g. account data) | Deathloop |
-| Config file design | Core gameplay loop |
-| Character / BP hierarchy abstraction | |
+- **C++ gameplay core systems**: Span across 3C, UI/UX, behavorial-oriented actor components, state machines, GAS, GameplayTag, Behavior Tree, Subsystems for the prototype.
+- **Data-driven system architecture**: Expose, validate and audit data for various systems.
+- **Tooling**: Build tooling based on recurring content-team pain points (source control conflicts, broken data references, bulk actions). Example: [uasset-json-exporter](https://github.com/hchia93/uasset-json-exporter), [uasset-name-linter](https://github.com/hchia93/uasset-name-linter).
+- **Workflow**: Claude Code co-piloting since March 2026. Shift from code-technique first to system-delivery first.
+
 
 ---
 
-### Technical side projects
+<div align="center">
 
-Each repo exists to solve a specific engineering problem. These are where the public evidence for the claims above lives.
+### ![History](https://img.shields.io/badge/History-8B6F47?style=for-the-badge)
 
-| Project | Stack | Problem it solves |
+
+AA & AAA production, 2016 – 2024, 2025 - 2026.
+
+
+
+| Title | Engine | Studio |
 |--|--|--|
-| [uasset-json-exporter](https://github.com/hchia93/uasset-json-exporter) | UE5 C++ plugin | Exposes `.uasset` binary content to external tooling by routing a commandlet through UE's serialization path |
-| [uasset-name-linter](https://github.com/hchia93/uasset-name-linter) | Python | Scans a UE project for asset filename convention violations before they accumulate into production debt |
-| [cpp-topics](https://github.com/hchia93/cpp-topics) | Modern C++ | Systematic practice ground for algorithms, data structures, and system-level primitives |
-| [cmd-spaceship](https://github.com/hchia93/cmd-spaceship) | C++, Winsock2 | Multiplayer shooter implemented at the socket level, with no engine scaffolding underneath |
-| [mock-store-payment-backend](https://github.com/hchia93/mock-store-payment-backend) | Node.js, PostgreSQL | Game store backend prototype covering REST API, schema, and transaction flow |
-| [escape-from-wizard](https://github.com/hchia93/escape-from-wizard) | C#, MonoGame | A* pathfinding for enemy AI in a 2D escape game |
+| *Bloodwell* (prototype, in development) | Unreal Engine 5 | TenTen Studios |
+| *Skull & Bones* | Anvil & Phoenix (Ubisoft proprietary) | Ubisoft Singapore |
+| *Final Fantasy XV* | Luminous (Square Enix proprietary) | Streamline Studios (outsource) |
+| *Sniper Ghost Warrior: Contracts* | CryEngine 3 | Streamline Studios (outsource) |
+| *NDA Projects* | Unreal Engine 4 | Streamline Studios (internal) |
+
+</div>
+
+
+- **Engine exposure**: Luminous, CryEngine 3, Anvil, UE4/UE5. 
+- **SaaS-shaped gameplay systems (Skull & Bones)**: Codex, crafting, mail with Send / Fetch / Claim / Update multi-verb RPC + paginated cross-team fetch, captain customization, shop / offer extension. Written for SaaS architecture and content-team extension.
+- **Async + server-authoritative patterns**: Callback chain sequencing (Lazy → Periodic Sync), simulation-vs-actual claim reconciliation, runtime ↔ backend bridging, account persistence.
+- **Production CI/CD discipline**: Regression-testable C++ under CI (DTest — daily test report, report on generated artifact, no-block-submit).
+
+<div align="center">
 
 ---
 
-### Contact
+Feel free to contact me!
 
-Open to technical conversations around C++ systems, gameplay engineering, and tooling. Reach me through GitHub.
+</div>
