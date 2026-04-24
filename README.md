@@ -15,7 +15,7 @@ Malaysia-based · Singapore PR · Remote-friendly
 
 > *Ship gameplay systems, and the tools that make them shippable.*
 >
-> *The filter I still run by hand, is the return worth the effort, does this solve a real problem. Even more so with AI.*
+> *The filter I still run by hand - is the return worth the effort? Does this solve a real problem? Even more so with AI.*
 
 </div>
 
@@ -29,9 +29,9 @@ Malaysia-based · Singapore PR · Remote-friendly
 
 **Intermediate Gameplay Programmer @ TenTen Studios.** Developing UE5 single-player action RPG, vertical-slice prototype. Carrying the tech side of the project, leading the technical decisions.
 
-- **C++ gameplay core systems**: Span across 3C, UI/UX, behavorial-oriented actor components, state machines, GAS, GameplayTag, Behavior Tree, Subsystems for the prototype.
-- **Data-driven system architecture**: Expose, validate and audit data for various systems.
-- **Tooling**: Build tooling based on recurring content-team pain points (source control conflicts, broken data references, bulk actions). Example: [uasset-json-exporter](https://github.com/hchia93/uasset-json-exporter), [uasset-name-linter](https://github.com/hchia93/uasset-name-linter).
+- **C++ gameplay core systems**: Span across UI/UX, state machines, 3C, behavior-oriented actor components, GAS, Gameplay Tags, Behavior Tree, on demand Subsystems for the prototype.
+- **Data-driven system architecture**: DataAsset + DeveloperSettings as the authoring surface, runtime validators and linters as the audit layer. Designers iterate without touching code.
+- **Tooling**: Build tooling based on recurring content-team pain points (source control conflicts, broken data references, bulk actions). Examples: [uasset-json-exporter](https://github.com/hchia93/uasset-json-exporter), [uasset-name-linter](https://github.com/hchia93/uasset-name-linter).
 - **Workflow**: Claude Code co-piloting since March 2026. Shift from code-technique first to system-delivery first.
 
 
@@ -42,25 +42,25 @@ Malaysia-based · Singapore PR · Remote-friendly
 ### ![History](https://img.shields.io/badge/History-8B6F47?style=for-the-badge)
 
 
-AA & AAA production, 2016 – 2024, 2025 - 2026.
+AA & AAA production, 2016 - 2024, 2025 - 2026.
 
 
 
-| Title | Engine | Studio |
-|--|--|--|
-| *Bloodwell* (prototype, in development) | Unreal Engine 5 | TenTen Studios |
-| *Skull & Bones* | Anvil & Phoenix (Ubisoft proprietary) | Ubisoft Singapore |
-| *Final Fantasy XV* | Luminous (Square Enix proprietary) | Streamline Studios (outsource) |
-| *Sniper Ghost Warrior: Contracts* | CryEngine 3 | Streamline Studios (outsource) |
-| *NDA Projects* | Unreal Engine 4 | Streamline Studios (internal) |
+| Title | Type | Engine | Studio |
+|--|--|--|--|
+| *Bloodwell* | `SP` | Unreal Engine 5 | TenTen Studios |
+| *Skull & Bones* | `MP` | Anvil & Phoenix (Ubisoft proprietary) | Ubisoft Singapore |
+| *Final Fantasy XV* | `SP` | Luminous (Square Enix proprietary) | Streamline Studios (outsource) |
+| *Sniper Ghost Warrior: Contracts* | `MP` | CryEngine 3 | Streamline Studios (outsource) |
+| *NDA Projects* | `SP` `MP` | Unreal Engine 4 | Streamline Studios (unreleased) |
 
 </div>
 
 
-- **Engine exposure**: Luminous, CryEngine 3, Anvil, UE4/UE5. 
-- **SaaS-shaped gameplay systems (Skull & Bones)**: Codex, crafting, mail with Send / Fetch / Claim / Update multi-verb RPC + paginated cross-team fetch, captain customization, shop / offer extension. Written for SaaS architecture and content-team extension.
+- **Engine exposure**: Anvil, Luminous, CryEngine 3 on shipped AAA; UE4 / UE5 on internal and prototype. UE experience is not continuous.
+- **GaaS gameplay systems (Skull & Bones)**: Codex, crafting, mail with Send / Fetch / Claim / Update multi-verb RPC + paginated cross-team fetch, captain customization, shop / offer extension. Extensible by content team without code change. Gameplay Runtime side ownership; collaborate with backend side for feature consistency and delivery.
 - **Async + server-authoritative patterns**: Callback chain sequencing (Lazy → Periodic Sync), simulation-vs-actual claim reconciliation, runtime ↔ backend bridging, account persistence.
-- **Production CI/CD discipline**: Regression-testable C++ under CI (DTest — daily test report, report on generated artifact, no-block-submit).
+- **Production CI discipline**: Regression-testable C++ under CI (DTest — daily regression runs on build artifacts, flag-not-block submission).
 
 <div align="center">
 
